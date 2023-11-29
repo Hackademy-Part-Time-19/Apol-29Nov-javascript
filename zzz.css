@@ -1,0 +1,168 @@
+body {
+    background-image: url(./imagini/i.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 0px;
+    margin: 0px;
+}
+
+.bigG {
+    border: 3px solid rgba(0, 0, 0, 0.312);
+    padding: 32px 0px;
+    font-size: 14px;
+    font-family: inherit;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background-size: 200% 100%;
+    animation: gradient 5s ease infinite;
+    margin-top: 50px;
+}
+
+.boxparagraf {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bloxbutton {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px 20px;
+}
+
+.keri {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+}
+
+.ciao {
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+    font-family: didot;
+}
+
+.keri2 {
+    padding: 1.3em 3em;
+    font-size: 8px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    margin-left: 20px;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+.ola {
+    padding: 1.3em 3em;
+    font-size: 8px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    margin-left: 20px;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+.ola:hover {
+    background-color: #c00b0b;
+    box-shadow: 0px 0px 131px 13px #c00b0b;
+    color: #fff;
+
+}
+
+.mama {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.312);
+    border: 2px solid transparent;
+    padding: 32px 24px;
+    font-size: 14px;
+    font-family: inherit;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-sizing: border-box;
+
+    background-size: 200% 100%;
+
+    margin-top: 50px;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+button:hover {
+    letter-spacing: 5px;
+    background-color: #c00b0b;
+    box-shadow: 0px 0px 131px 13px #c00b0b;
+    color: white;
+}
+
+button:active {
+    letter-spacing: 5px;
+    color: white;
+    background-color: #c00b0b;
+    box-shadow: 0px 0px 131px 13px #c00b0b;
+}
+
+p {
+    color: WHITE;
+    padding: 20px;
+    font-size: 10px;
+    color: white;
+    font-family: didot;
+    cursor: pointer
+}
+
+p span {
+    transition: .5s linear
+}
+
+p:hover span:nth-child(1) {
+    margin-right: 5px
+}
+
+p:hover span:nth-child(1):after {
+    content: "'";
+}
+
+p:hover span:nth-child(2) {
+    margin-left: 30px
+}
+
+p:hover span {
+    color: red;
+    text-shadow: 0 0 10px red,
+        0 0 20px red,
+        0 0 40px red;
+}
